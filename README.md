@@ -2,7 +2,7 @@
 
 A LaTeX template for the project report of CERN openlab summer students.
 
-It is based on LaTeX `article` class. Minimal customization has been added to match provided template.
+It is based on LaTeX `article` class. Minimal customization has been added to match provided template. A preview of the document is available [here](preview.pdf).
 
 ## Usage
 
