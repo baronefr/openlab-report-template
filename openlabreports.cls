@@ -1,5 +1,5 @@
 %--------------------- Definition ------------------------
-\ProvidesClass{reportOpenlab}[2022/07/27 LaTeX version of CERN openlab report]
+\ProvidesClass{openlabreports}[2023/07/22 LaTeX version of CERN openlab report]
 % description: minimal customisation of LaTeX article class to match openlab template
 
 \LoadClassWithOptions{article}
