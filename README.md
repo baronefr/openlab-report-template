@@ -1,8 +1,8 @@
-# openlab-report-template
+# openlab report template
 
-A LaTeX template for the project report of CERN Openlab summer students.
+A LaTeX template for the project report of CERN openlab summer students.
 
-It is based on LaTeX `article` class. Minimal customisation has been added to match provided template.
+It is based on LaTeX `article` class. Minimal customization has been added to match provided template.
 
 ## Usage
 
@@ -43,10 +43,10 @@ Full structure of this template is placed below. You need to edit `main.tex` pro
 |-- bibliography.bib
 |-- main.tex
 |-- README.md
-`-- reportOpenlab.cls
+`-- openlabreports.cls
 ```
 
-`reportOpenlab.cls` and `assets` contain customisation of LaTeX article to CERN openlab theme.
+`openlabreports.cls` and `assets` contain customization of LaTeX article to CERN openlab theme.
 
 
 ## Figures, code snippets, bibliography
@@ -55,8 +55,8 @@ Examples are given in the template, but please consult LaTeX documentation for f
 
 ## Contributing
 
-Contributions are welcome! Please open a PR for any improvoment.
+Contributions are welcome! Please open a PR for any improvement.
 
 ## License
 
-The template is released under the MIT license. CERN and CERN Openlab assets are [© CERN](https://copyright.web.cern.ch/). 
+The template is released under the MIT license. CERN and CERN openlab assets are [© CERN](https://copyright.web.cern.ch/). 
