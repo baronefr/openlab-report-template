@@ -31,15 +31,20 @@ A `makefile` is also included for convenience. `make pdf` will build the PDF for
 
 Full structure of this template is placed below. You need to edit `main.tex` providing details of your project (title, names, specifications, abstract) and the content of the report. Bibliography in BibTeX can be placed in `bibliography.bib`.
 
+To present the main features of this template, a dummy text is written in `demo/`. Delete such folder when developing your own project.
+
 ```bash
 .
 |-- assets
 |   |-- cern_openlab_logo.png
 |   |-- cern_openlab_logo_small.png
-|   |-- example.png
 |   |-- front.png
 |   |-- hline1.png
 |   `-- hline2.png
+|-- demo
+|   |-- demo.tex
+|   |-- smile.png
+|   `-- tikz.tex
 |-- bibliography.bib
 |-- main.tex
 |-- README.md
