@@ -1,8 +1,8 @@
 # openlab report template
 
-A LaTeX template for the project report of CERN openlab summer students.
+A LaTeX template for the project report of CERN openlab summer students. Take a look at the **preview of the document** [here](preview.pdf).
 
-It is based on LaTeX `article` class. Minimal customization has been added to match provided template. A preview of the document is available [here](preview.pdf).
+It is based on LaTeX `article` class. Minimal customization has been added to match provided template.
 
 ## Usage
 
@@ -33,7 +33,7 @@ Full structure of this template is placed below. You need to edit `main.tex` pro
 
 To present the main features of this template, a dummy text is written in `demo/`. Delete such folder when developing your own project.
 
-```bash
+```
 .
 |-- assets
 |   |-- cern_openlab_logo.png
