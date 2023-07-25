@@ -1,18 +1,20 @@
 \section{Introduction}
 
-Hello world! If you are one of those exceptional minds that don't like to use Word, please be welcome and use this \LaTeX template for your project report! A preview of you face in this exact moment is presented in Figure~\ref{fig:example}.
+Hello world! If you are one of those exceptional minds that does not like to use Word, please be welcome and use this \LaTeX template for your project report! A preview of you face in this exact moment is presented in Figure~\ref{fig:example}.
+More information is available for instance at \url{https://www.overleaf.com/learn/latex/Inserting_Images}.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.25\textwidth]{assets/example.png}
+    \includegraphics[width=0.25\textwidth]{demo/smile.png}
     \caption{Example of a figure from Ref.~\cite{exampleCitation}}
     \label{fig:example}
 \end{figure}
 
-\lipsum[1]
+
 
 \subsection{More}
-More information is available for instance at \url{https://www.overleaf.com/learn/latex/Inserting_Images}.
+
+\lipsum[1]
 
 \subsection{Even more}
 
@@ -31,6 +33,8 @@ More information is available for instance at \url{https://www.overleaf.com/lear
 
 
 
+
+
 \section{More but bigger}
 Another section.
 \ifprintCode
@@ -40,7 +44,7 @@ Custom environment \texttt{longlisting} used in Listing~\ref{code:example} enabl
 More information on code snippets is available for instance at:
 \begin{itemize}
     \item \url{https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted},
-    \item \href{https://repo.skni.umcs.pl/ctan/macros/latex/contrib/minted/minted.pdf}{minted package documentation.}
+    \item \href{https://repo.skni.umcs.pl/ctan/macros/latex/contrib/minted/minted.pdf}{minted package documentation}.
 \end{itemize}
 
 
@@ -91,10 +95,10 @@ Unlike Word, you can do very fancy stuff with \LaTeX. Please enjoy a vector sket
 
 \begin{center}
 \scalebox{1.2}{
-    \input{assets/demo-img}
+    \input{demo/tikz}
 }
 \end{center}
-... or this stunning Lindblad equation
+... or this stunning Lindbladian equation
 \begin{equation}
     \dot{\rho} = \frac{i}{\hbar} [\rho,H] + \sum_j \gamma_j \left( L_j \, \rho \,  L_j^\dagger - \frac{1}{2} \Bigl\{ L_j^\dagger L_j, \, \rho \Bigr\} \right)
     \label{eq:Lindblad}
